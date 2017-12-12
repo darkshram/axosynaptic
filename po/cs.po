@@ -684,10 +684,6 @@ msgstr "Vyhledává soubory podle jejich názvu pomocí příkazu „locate“."
 msgid "Unable to find \"locate\" binary"
 msgstr "Příkaz „locate“ nebyl nalezen."
 
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
-
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
 msgstr ""

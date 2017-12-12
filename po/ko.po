@@ -676,10 +676,6 @@ msgstr "시스템 상의 파일을 찾기 위해 로케이트 명령을 실행�
 msgid "Unable to find \"locate\" binary"
 msgstr "로케이트 바이너리를 찾을 수 없습니다."
 
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
-
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
 msgstr ""

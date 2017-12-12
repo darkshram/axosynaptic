@@ -684,10 +684,6 @@ msgstr "Zažene ukaz \"locate\" za lociranje datotek v datotečnem sistemu"
 msgid "Unable to find \"locate\" binary"
 msgstr "Ne najdem programa \"locate\""
 
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
-
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
 msgstr ""
@@ -698,11 +694,11 @@ msgstr ""
 
 #: ../src/plugins/tracker-plugin.vala:73
 msgid "Runs tracker command to find files on the filesystem."
-msgstr ""
+msgstr "Zažene ukaz \"tracker\" za lociranje datotek v datotečnem sistemu"
 
 #: ../src/plugins/tracker-plugin.vala:77
 msgid "Unable to find \"tracker\" binary"
-msgstr ""
+msgstr "Ne najdem programa \"tracker\""
 
 #: ../src/plugins/opensearch.vala:254
 msgid "Search the web."

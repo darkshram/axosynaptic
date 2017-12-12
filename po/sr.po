@@ -685,10 +685,6 @@ msgstr "Покрени наредбу „locate“ за налажење дат�
 msgid "Unable to find \"locate\" binary"
 msgstr "Нисам успео да нађем „locate“ извршни"
 
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
-
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
 msgstr ""
@@ -699,11 +695,11 @@ msgstr ""
 
 #: ../src/plugins/tracker-plugin.vala:73
 msgid "Runs tracker command to find files on the filesystem."
-msgstr ""
+msgstr "Покрени наредбу „tracker“ за налажење датотека у систему датотека."
 
 #: ../src/plugins/tracker-plugin.vala:77
 msgid "Unable to find \"tracker\" binary"
-msgstr ""
+msgstr "Нисам успео да нађем „tracker“ извршни"
 
 #: ../src/plugins/opensearch.vala:254
 msgid "Search the web."
