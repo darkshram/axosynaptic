@@ -158,9 +158,9 @@ ${PACKAGE}-${VERSION}
 
   Build Environment
     Install Prefix:     ${prefix}
-    Zeitgeist support:  ${enable_zeitgeist}
 
   Optional dependencies
+    Zeitgeist support:  ${enable_zeitgeist}
     Rest:               ${enable_librest}
     AppIndicator:       ${enable_indicator}
 
