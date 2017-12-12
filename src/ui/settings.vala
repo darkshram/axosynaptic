@@ -54,7 +54,7 @@ namespace AxoSynaptic.Gui
         help_button.set_tooltip_markup (_("About this plugin"));
         help_button.clicked.connect (() => {
           string id = AxoSynaptic.Utils.extract_type_name (pi.plugin_type);
-          string address = "http://github.com/darkshram/wiki/index.php?title=Plugins/%s". printf (id);
+          string address = "http://github.com/darkshram/axosynaptic/wiki/index.php?title=Plugins/%s". printf (id);
           AxoSynaptic.Utils.open_uri (address);
         });
         add_user_button (help_button);
