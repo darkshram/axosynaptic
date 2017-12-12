@@ -679,11 +679,7 @@ msgstr "Spúšta lokalizačný príkaz pre hľadanie súborov v súborovom syst�
 
 #: ../src/plugins/locate-plugin.vala:77
 msgid "Unable to find \"locate\" binary"
-msgstr "Nemožno nájsť \"lokalizovať\" v binároch"
-
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
+msgstr "Nemožno nájsť \"locate\" v binároch"
 
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
@@ -699,7 +695,7 @@ msgstr ""
 
 #: ../src/plugins/tracker-plugin.vala:77
 msgid "Unable to find \"tracker\" binary"
-msgstr ""
+msgstr "Nemožno nájsť \"tracker\" v binároch"
 
 #: ../src/plugins/opensearch.vala:254
 msgid "Search the web."
