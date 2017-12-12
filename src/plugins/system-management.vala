@@ -65,7 +65,9 @@ namespace AxoSynaptic
 
   public class SystemManagementPlugin : Object, Activatable, ItemProvider
   {
-    public bool enabled { get; set; default = true; }
+    // not everyone use logind for session management. ConsoleKit code needs
+    // an update. Upower code is obsolete.
+    public bool enabled { get; set; default = false; }
 
     public void activate ()
     {
