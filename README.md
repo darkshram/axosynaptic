@@ -36,7 +36,6 @@ To build:
 
 Runtime:
 
-- tracker
 - zeitgeit
 
 # Screenshot
