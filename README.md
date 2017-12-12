@@ -41,4 +41,4 @@ Runtime:
 
 # Screenshot
 
-![AxoSynaptic](https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/screenshots/axosynaptic-screenshot1.png)
+![AxoSynaptic](https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/screenshots/screenshot1.png)

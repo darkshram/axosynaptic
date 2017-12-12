@@ -7,7 +7,7 @@
     <p xml:lang="es">AxoSynaptic es una utilería para lanzar todo lo que tengas en tu computadora. Utiliza zeitgeist para realizar la búsqueda en la actividad del usuario.</p>
   </description>
   <screenshots>
-    <screenshot type="default">https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/screenshots/axosynaptic-screenshot1.png</screenshot>
+    <screenshot type="default">https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/screenshots/screenshot1.png</screenshot>
   </screenshots>
   <url type="homepage">https://github.com/darkshram/axosynaptic/</url>
   <updatecontact>darshram@gmail.com</updatecontact>
