@@ -46,6 +46,8 @@ namespace AxoSynaptic
     public abstract void hibernate () throws IOError;
     public abstract void stop () throws IOError;
     public abstract async bool can_restart () throws IOError;
+    public abstract async bool can_suspend () throws IOError;
+    public abstract async bool can_hibernate () throws IOError;
     public abstract async bool can_stop () throws IOError;
   }
 
