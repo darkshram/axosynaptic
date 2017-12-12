@@ -4,4 +4,4 @@
 	- Properly construct OptionEntry.
 	- Set and update client-window of Gtk.IMMulticontext.
 	- Silence desktop-entry-lacks-keywords-entry.
-	- Only Sow in MATE Desktop.
+	- Only show in MATE Desktop.
