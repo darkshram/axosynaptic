@@ -1,11 +1,11 @@
 AC_INIT([axosynaptic], [0.2.99.2])
-AM_INIT_AUTOMAKE([foreign])
 AC_DEFINE(RELEASE_NAME, "MATEAxoSynaptic", "Codename of this release")
 
 AC_PREREQ([2.65])
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([build-aux])
+AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([.])
 AC_CONFIG_HEADERS([config.h])
 
