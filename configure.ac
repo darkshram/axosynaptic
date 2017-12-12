@@ -1,5 +1,6 @@
 AC_INIT([axosynaptic], [0.2.99.2])
-AC_DEFINE(RELEASE_NAME, "Cholecystokinin", "Codename of this release")
+AM_INIT_AUTOMAKE([foreign])
+AC_DEFINE(RELEASE_NAME, "MATEAxoSynaptic", "Codename of this release")
 
 AC_PREREQ([2.65])
 
