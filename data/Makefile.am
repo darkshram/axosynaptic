@@ -21,7 +21,7 @@ svgstatusiconlightdir = $(datadir)/icons/Numix-Light/24/status
 dist_svgstatusiconlight_DATA = Numix-Light/axosynaptic-status.svg
 
 appdatadir = $(datadir)/metainfo
-dist_appdata = org.mate.axosynaptic.xml
+dist_appdata_DATA = org.mate.axosynaptic.xml
 
 EXTRA_DIST = \
 	org.mate.axosynaptic.desktop.in \
