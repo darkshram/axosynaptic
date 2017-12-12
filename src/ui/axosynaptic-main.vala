@@ -130,7 +130,7 @@ namespace AxoSynaptic
           AppIndicator.IndicatorStatus.ACTIVE : AppIndicator.IndicatorStatus.PASSIVE);
       });
 #else
-      status_icon = new Gtk.StatusIcon.from_icon_name ("axosynaptic");
+      status_icon = new Gtk.StatusIcon.from_icon_name ("axosynaptic-status");
 
       status_icon.popup_menu.connect ((icon, button, event_time) => {
         indicator_menu.popup (null, null, status_icon.position_menu, button, event_time);
