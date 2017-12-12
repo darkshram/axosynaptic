@@ -134,7 +134,7 @@ namespace AxoSynaptic
     {
       PluginRegistry.get_default ().register_plugin (
         typeof (GnomeSessionPlugin),
-        "GNOME Session",
+        "MATE Session",
         _("Log out from your session."),
         "gnome-session-logout",
         register_plugin,

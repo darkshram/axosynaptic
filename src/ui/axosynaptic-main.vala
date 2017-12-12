@@ -186,7 +186,8 @@ namespace AxoSynaptic
         typeof (DevhelpPlugin),
         typeof (OpenSearchPlugin),
         typeof (LocatePlugin),
-        typeof (TrackerPlugin),
+        // Experimental. Not ready for release.
+        // typeof (TrackerPlugin),
         typeof (PastebinPlugin),
         typeof (DictionaryPlugin)
       };

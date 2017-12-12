@@ -23,6 +23,8 @@ namespace AxoSynaptic
 {
   public class LocatePlugin : Object, Activatable, ActionProvider
   {
+    // nobody uses mlocate anymore. Disable by default. Let users install
+    // first mlocate, then enable pluguin.
     public bool enabled { get; set; default = false; }
 
     public void activate ()

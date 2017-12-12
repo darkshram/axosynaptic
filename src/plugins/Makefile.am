@@ -43,7 +43,6 @@ libplugins_la_VALASOURCES = \
 	hybrid-search-plugin.vala \
 	launchpad-plugin.vala \
 	locate-plugin.vala \
-	tracker-plugin.vala \
 	opensearch.vala \
 	pastebin-plugin.vala \
 	pidgin-plugin.vala \

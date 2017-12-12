@@ -23,7 +23,7 @@ namespace AxoSynaptic
 {
   public class TrackerPlugin : Object, Activatable, ActionProvider
   {
-    public bool enabled { get; set; default = true; }
+    public bool enabled { get; set; default = false; }
 
     public void activate ()
     {
@@ -108,11 +108,12 @@ namespace AxoSynaptic
 
       q.check_cancellable ();
 
-      q.max_results = 256;
+      q.max_results = 20;
       string regex = Regex.escape_string (q.query_string);
       // FIXME: split pattern into words and search using --regexp?
-      string[] argv = {"tracker", "search", "-l", "%u".printf (q.max_results),
-                       "*%s*".printf (regex.replace (" ", "*"))};
+      string[] argv = {"tracker", "search", "-f", "--disable-snippets", 
+                       "--disable-color", "-l", "%u".printf (q.max_results),
+                       "%s".printf (regex.replace ("  file:/", ""))};
 
       Gee.Set<string> uris = new Gee.HashSet<string> ();
 
