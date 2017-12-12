@@ -11,7 +11,7 @@ AC_CONFIG_HEADERS([config.h])
 
 AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip -Wno-portability subdir-objects])
 
-AM_MAINTAINER_MODE([enable])
+AM_MAINTAINER_MODE
 
 dnl ==============================================
 dnl Translation support
@@ -32,20 +32,6 @@ LT_PREREQ([2.2.6])
 LT_INIT
 
 LT_LIB_M
-
-dnl ==============================================
-dnl MATE MACROS
-dnl ==============================================
-
-dnl This allows to set warnings
-MATE_COMPILE_WARNINGS(yes)
-
-dnl This could be use one day not to compile all debugging message
-dnl MATE_DEBUG_CHECK
-
-MATE_MAINTAINER_MODE_DEFINES
-DISABLE_DEPRECATED="$DISABLE_DEPRECATED -DGSEAL_ENABLE"
-AC_SUBST(DISABLE_DEPRECATED
 
 dnl ==============================================
 dnl Check for Vala
@@ -153,17 +139,6 @@ if test "x$enable_librest" = "xyes" ; then
 fi
 AM_CONDITIONAL(HAVE_LIBREST, test "x$enable_librest" = "xyes")
 
-dnl ****** DISABLE_DEPRECATED *************************
-AC_ARG_ENABLE(deprecation_flags,
-              [AC_HELP_STRING([--enable-deprecation-flags],
-                              [use *_DISABLE_DEPRECATED flags @<:@default=no@:>@])],,
-              [enable_deprecation_flags=no])
-
-if test "x$enable_deprecation_flags" = "xyes"; then
-   DISABLE_DEPRECATED_CFLAGS=$DISABLE_DEPRECATED
-   AC_SUBST(DISABLE_DEPRECATED_CFLAGS)
-fi
-
 AC_CONFIG_FILES([
 Makefile
 data/Makefile
@@ -183,7 +158,6 @@ ${PACKAGE}-${VERSION}
 
   Build Environment
     Install Prefix:     ${prefix}
-	Use *_DISABLE_DEPRECATED: ${enable_deprecation_flags}
 
   Optional dependencies
     Zeitgeist support:  ${enable_zeitgeist}

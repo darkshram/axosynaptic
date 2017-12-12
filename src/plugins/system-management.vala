@@ -123,6 +123,7 @@ namespace AxoSynaptic
 
           allowed = yield dbus_interface.can_suspend ();
         }
+        catch (IOError err)
         {
           warning ("%s", err.message);
           allowed = false;
@@ -174,6 +175,7 @@ namespace AxoSynaptic
 
           allowed = yield dbus_interface.suspend ();
         }
+        catch (IOError err)
         {
           warning ("%s", err.message);
         }
@@ -248,6 +250,7 @@ namespace AxoSynaptic
 
           allowed = yield dbus_interface.can_hibernate ();
         }
+        catch (IOError err)
         {
           warning ("%s", err.message);
           allowed = false;
