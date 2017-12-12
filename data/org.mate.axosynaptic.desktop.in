@@ -5,4 +5,5 @@ _Comment=Search everything you do.
 Keywords=search;find;launch;
 Exec=axosynaptic
 Icon=axosynaptic
+OnlyShowIn=MATE;
 Categories=X-MATE;Utility;

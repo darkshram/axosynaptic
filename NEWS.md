@@ -1,6 +1,7 @@
-Sorry, we're too lazy to maintain this file, for release notes and changelog
-please take a look at our milestone pages:
-
-https://launchpad.net/axosynaptic-project/+milestone/{version}
-  [ version 0.2.8: https://launchpad.net/axosynaptic-project/+milestone/0.2.8 ]
-
+* AxoSynaptic 1.18.0
+	- Based on code of Synapse 2.99.2.
+	- Fixes build problems on vala 0.36.
+	- Properly construct OptionEntry.
+	- Set and update client-window of Gtk.IMMulticontext.
+	- Silence desktop-entry-lacks-keywords-entry.
+	- Only Sow in MATE Desktop.
