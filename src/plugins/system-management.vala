@@ -42,12 +42,8 @@ namespace AxoSynaptic
     public const string OBJECT_PATH = "/org/freedesktop/ConsoleKit/Manager";
 
     public abstract void restart () throws IOError;
-    public abstract void suspend () throws IOError;
-    public abstract void hibernate () throws IOError;
     public abstract void stop () throws IOError;
     public abstract async bool can_restart () throws IOError;
-    public abstract async bool can_suspend () throws IOError;
-    public abstract async bool can_hibernate () throws IOError;
     public abstract async bool can_stop () throws IOError;
   }
 
@@ -119,20 +115,6 @@ namespace AxoSynaptic
 
         try
         {
-          ConsoleKitObject dbus_interface = Bus.get_proxy_sync (BusType.SYSTEM,
-                                           ConsoleKitObject.UNIQUE_NAME,
-                                           ConsoleKitObject.OBJECT_PATH);
-
-          allowed = yield dbus_interface.can_suspend ();
-        }
-        catch (IOError err)
-        {
-          warning ("%s", err.message);
-          allowed = false;
-        }
-
-        try
-        {
           UPowerObject dbus_interface = Bus.get_proxy_sync (BusType.SYSTEM,
                                            UPowerObject.UNIQUE_NAME,
                                            UPowerObject.OBJECT_PATH);
@@ -163,19 +145,6 @@ namespace AxoSynaptic
 
           dbus_interface.suspend (true);
           return;
-        }
-        catch (IOError err)
-        {
-          warning ("%s", err.message);
-        }
-
-        try
-        {
-          ConsoleKitObject dbus_interface = Bus.get_proxy_sync (BusType.SYSTEM,
-                                           ConsoleKitObject.UNIQUE_NAME,
-                                           ConsoleKitObject.OBJECT_PATH);
-
-          allowed = yield dbus_interface.suspend ();
         }
         catch (IOError err)
         {
@@ -246,20 +215,6 @@ namespace AxoSynaptic
 
         try
         {
-          ConsoleKitObject dbus_interface = Bus.get_proxy_sync (BusType.SYSTEM,
-                                           ConsoleKitObject.UNIQUE_NAME,
-                                           ConsoleKitObject.OBJECT_PATH);
-
-          allowed = yield dbus_interface.can_hibernate ();
-        }
-        catch (IOError err)
-        {
-          warning ("%s", err.message);
-          allowed = false;
-        }
-
-        try
-        {
           UPowerObject dbus_interface = Bus.get_proxy_sync (BusType.SYSTEM,
                                            UPowerObject.UNIQUE_NAME,
                                            UPowerObject.OBJECT_PATH);
@@ -290,19 +245,6 @@ namespace AxoSynaptic
 
           dbus_interface.hibernate (true);
           return;
-        }
-        catch (IOError err)
-        {
-          warning ("%s", err.message);
-        }
-
-        try
-        {
-          ConsoleKitObject dbus_interface = Bus.get_proxy_sync (BusType.SYSTEM,
-                                           ConsoleKitObject.UNIQUE_NAME,
-                                           ConsoleKitObject.OBJECT_PATH);
-
-          allowed = yield dbus_interface.hibernate ();
         }
         catch (IOError err)
         {
