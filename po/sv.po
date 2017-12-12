@@ -686,10 +686,6 @@ msgstr "Kör komandot locate för att hitta filer"
 msgid "Unable to find \"locate\" binary"
 msgstr "Kan inte hitta programmet \"locate\""
 
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
-
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
 msgstr ""
@@ -700,11 +696,11 @@ msgstr ""
 
 #: ../src/plugins/tracker-plugin.vala:73
 msgid "Runs tracker command to find files on the filesystem."
-msgstr ""
+msgstr "Kör komandot tracker för att hitta filer"
 
 #: ../src/plugins/tracker-plugin.vala:77
 msgid "Unable to find \"tracker\" binary"
-msgstr ""
+msgstr "Kan inte hitta programmet \"tracker\""
 
 #: ../src/plugins/opensearch.vala:254
 msgid "Search the web."
