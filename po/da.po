@@ -676,10 +676,6 @@ msgstr "Kører locate kommando for at finde filer på filsystemet."
 msgid "Unable to find \"locate\" binary"
 msgstr ""
 
-#: ../src/plugins/locate-plugin.vala:77
-msgid "Unable to find \"locate\" binary"
-msgstr ""
-
 #: ../src/plugins/tracker-plugin.vala:62 ../src/plugins/tracker-plugin.vala:72
 msgid "Tracker"
 msgstr ""
