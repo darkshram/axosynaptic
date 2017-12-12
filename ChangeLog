@@ -1,0 +1,2650 @@
+2016-02-28  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Release 0.2.99.2
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Bump to 2016
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Show release-name in about-dialog only
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	src: Drop last usages of "using *;"
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	src: Drop "using Cairo;"
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	src: Drop "using Gtk;"
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	src: Drop "using Zeitgeist;"
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	src: Drop "using Json;"
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	src: Drop "using Gee;"
+
+2016-02-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	desktop-file-plugin: correct ApplicationsMatch to DesktopFileMatch
+
+2016-02-26  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	po: Update translations
+
+2016-02-26  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Add suport for MATE Screensaver
+
+2015-11-30  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	debian: Bump build-deps accordingly
+
+2015-11-30  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core/query: Cache and reuse Regex.escape_string (query)
+
+2015-11-30  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui/controller: Some optimization accessing model.query[] in search*()
+
+2015-11-16  Jeremy Munsch  <jeremy.munsch@gmail.com>
+
+	ui: Improve mouse navigation support
+
+2015-11-20  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	file-op-plugin: Only allow local files for Remove-action
+
+2015-11-19  Jeremy Munsch  <jeremy.munsch@gmail.com>
+
+	Add shortcut ctrl+backspace for delete word
+
+2015-11-18  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	common-actions: Allow Runner/TerminalRunner only for non-directory
+	files
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Avoid taking reference on default GdkDisplay
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	tile: Fix regression of r623
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	view-base: Verify presence of GdkX11Screen before using it
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	widgets: Cache struct in loop
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Clean up struct initializations
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Use some unowned variables
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Fix usage of get_state_flags()
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Use some unowned variables
+
+2015-11-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Use get_allocation() instead of multiple calls to get_allocated_*()
+
+2015-11-15  Jeremy Munsch  <jeremy.munsch@gmail.com>
+
+	chromium: Set mime-type of BookmarkMatch
+
+2015-11-14  Jeremy Munsch  <jeremy.munsch@gmail.com>
+
+	Add support for "Additional applications actions"
+
+	Source and evaluate "Desktop Action" groups in desktop-files.
+
+2015-11-14  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Bump requirements glib-2.0 >= 2.40, valac >= 0.24.0
+
+2015-11-14  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Drop optional dependency on gnome-common
+
+2015-11-14  Jeremy Munsch  <jeremy.munsch@gmail.com>
+
+	core: Handle UriMatches pointing to executable files
+
+2015-10-05  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	main: Properly setup internationalization
+
+2015-09-29  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	dictionary: Add support for "mate-dictionary"
+
+2015-09-29  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	calculator: Make sure that only the result will be copied into
+	clipboard
+
+	This was a regression r583 which resulted in copying the whole input
+	including the concated result.
+
+2015-07-23  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	desktop-file-service: Avoid some string copying
+
+2015-07-21  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	po: Update translation template
+
+2015-07-21  Jeremy Munsch  <jeremy.munsch@gmail.com>
+
+	Add Zeal Offline Documentation plugin
+
+2015-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Fix build with valac >= 0.28
+
+2015-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Some more cleaning
+
+2015-04-27  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	po: Update translations
+
+2015-01-28  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Release 0.2.99.1
+
+2015-01-28  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Fix make distcheck
+
+2015-01-28  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Add myself to developers
+
+2014-08-31  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	desktop-file-service: Fix typos in get_environment_type() :\
+
+2014-07-29  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	volume-service: Avoid dead-lock
+
+	Don't bother to fix this properly since this needs a rewrite anyway.
+
+2014-07-16  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Link against gthread-2.0
+
+2014-07-16  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	chromium: Also check for "chromium-browser"
+
+2014-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	ui: Drop unused Inspector
+
+2014-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Move tile-view into ui
+
+2014-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Move definition of common valaflags to configure
+
+2014-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Collect and define vala-deps in configure.ac
+
+2014-07-15  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Drop obsololete dbus-glib-1 references
+
+2014-07-11  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Fix typo
+
+2014-07-11  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	po: Update translations template and POTFILES.*
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	opensearch: Add DuckDuckGo support
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Add simple GNOME bookmarks support
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Add "Remove" action
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Enable all available plugins
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Small API clean up
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Move CommonActions.open_uri() to Utils
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Some minor cleaning
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Override default logger to use the native console output API of GLib
+
+	Use an adapted Logger class from plank (by Robert Dyer)
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Drop obsolete usage of VALAC_0_16 conditionals
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Drop MatchType
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Rename DefaultMatch to UnknownMatch
+
+2014-07-10  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Add ActionMatch class and make use of it
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Fix launching applications
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	codestyle: Commonize formatting of lambda-expressions
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	codestyle: Issue in type-definition
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	codestyle: Fix format of property definitions
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	codestyle: Mark translations exactly like _("...")
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	codestyle: One space before and after colon in class/interface
+	definition
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	match: Don't allow null to be passed as argument in execute()
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Update for Rhythmbox 3
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	match: Better don't use construct here
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	desktop-file-service: Output some useful debug information
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Rename DesktopFileInfo.EnvironmentType to DesktopEnvironmentType
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	desktop-file-plugin: Fix r567
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Use unicode-safe char_count() instead of length
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	desktop-file-plugin: Clean up usage of Match and Action
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Drop useless subclasses of UriMatch
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	match: Make it possible to ApplicationMatch and UriMatch directly
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Use GLib.KeyFileDesktop constants
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Move plugin-related classes to core/plugin.vala
+
+2014-07-09  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Rename Match.Score to MatchScore
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Rename BaseAction to Action
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Remove trailing spaces
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Make AxoSynaptic.Match a GObject to be able subclass it properly
+
+	This removes a lot of duplicated property definitions.
+	The Zeitgeist plugins needed some deeper changes to cope with
+	inheritence
+	issues.
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Oops
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Some more type-casting clean ups
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: More clean ups while casting objects and avoid taking
+	references
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core/utils: Match.mime_type is not allowed to be null, fixes critical
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Define more internal build dependencies
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Avoid not wanted critical
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Properly handle of some Match objects
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	debian: Don't install Changelog
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Properly handle of Match objects
+
+2014-07-08  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Generate Changelog on make dist
+
+2014-07-05  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Fix build
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Bump glib requirement to 2.28.0
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Drop not-used source file
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Use GLib.Application instead of requiring libunique-3.0
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Update and mention the correct supported valac version
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	tile-view: Fix some deprecation warnings
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Fix deprecation and valac warnings
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	pidgin: Use the dedicated global field
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Actually use "activate" shortcut from config
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Add systemd/logind support
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Add support for newly registered desktop environments and "Pantheon"
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Bump copyright year to 2014
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Update AUTHORS
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Some more cleaning
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Actually set GETTEXT_PACKAGE
+
+2014-07-04  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	po: Import translations
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	plugins: Fix some valac warnings
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Drop gir since it isn't possible to build a typelib currently
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Let debug information reference the vala source
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	core: Mark Utils.extract_type_name static, Utils is just a namespace
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	debian: Merge with Ubuntu Saucy
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	build: Modernize things a bit
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	debian: Update build-deps, wrap-and-sort, bump compat and clean up
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Fix left-over zeitgeist-1.0 reference
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Port to gee-0.8
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Use rest-0.7 bindings shipped with valac
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	debian: Update build-deps
+
+2014-07-03  Rico Tzschichholz  <ricotz@ubuntu.com>
+
+	Port to zeitgeist-2.0
+
+2014-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix issues with colors
+
+2014-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix typo
+
+2014-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix make check
+
+2014-01-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merged
+	lp:~develop7/axosynaptic-project/ssh-plugin-proper-wildcards-and-dupes-handling
+
+2014-01-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merged lp:~jan-hrdina/axosynaptic-project/chromium-plugin
+
+2014-01-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added AsyncOnce
+
+2013-08-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a few warnings
+
+2013-08-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump version
+
+2013-08-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix wrong text offset
+
+2013-08-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use custom spinner implementation
+
+2013-08-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump appindicator requirement
+
+2013-08-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Better error message
+
+2013-08-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge Tom Beckmann's GTK3 port branch
+
+2012-10-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump vala requirement to 0.16
+
+2012-10-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add support for newly registered desktop environments
+
+2012-10-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add -lm to core linker flags
+
+2012-10-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix border painting
+
+2012-10-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix crasher in the logger function
+
+2012-04-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make sure exec is not null
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Check XDG_CURRENT_DESKTOP
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix linking on some distros
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Remove unconditional zeitgeist dependency
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post-release version bump
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Release 0.2.10
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Remove cancellable-fix.vapi which is no longer needed
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update translation files
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump dependencies
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use current uris in Zeitgeist plugin
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a bug in IconCacheService
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use AppInfo to make sure i18n works in cases where downstream patches
+	change the way translations are done
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Finish fixing desktop id handling
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix desktop id handling
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Remove rest-0.6 support
+
+2012-03-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add valac-0.16 compability
+
+2012-03-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge lp:~shkn/axosynaptic-project/xnoise-plugin
+
+2012-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix the suspend check
+
+2011-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Really fix Suspend and Hibernate
+
+2011-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge fixes from 0.2 branch
+
+2011-09-26  Alberto  <albyrock87+dev@gmail.com>
+
+	Starting from now, ONLY vala-0.14 is supported
+	Now using GDBus instead of DBus
+	In vala-0.14 structs uses shallow copy: now using ref Query on some
+	methods to prevent crashes.
+
+2011-09-26  Alberto  <albyrock87+dev@gmail.com>
+
+	Merge lp:~develop7/axosynaptic-project/ssh-plugin-tweaks
+
+2011-09-26  Alberto  <albyrock87+dev@gmail.com>
+
+	Bump version to 0.2.9
+
+2011-09-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Release 0.2.8.1
+
+2011-09-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Debian: Build with valac-0.12
+
+2011-09-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix possible crash
+
+2011-09-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Init libnotify, otherwise it crashes in latest versions
+
+2011-09-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post-release version bump
+
+2011-09-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Release 0.2.8
+
+2011-09-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Couple of fixes
+
+2011-09-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update translation template
+
+2011-09-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	We didn't want Shift+Inset to do the same thing as Ctrl+V
+
+2011-09-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Rename shift+insert description
+
+2011-09-17  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Added Alternate Past command
+	Added Quit command
+
+2011-09-17  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fix build error caused by potfiles
+
+2011-09-17  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Revert #466, and apply a better fix
+
+2011-09-16  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Clear search list when starting a SearchProvider search
+
+2011-09-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix UI issue
+
+2011-09-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add related action
+
+2011-09-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add some unused code..
+
+2011-09-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Cut a few miliseconds off startup time
+
+2011-09-08  Michal Hruby  <michal.mhr@gmail.com>
+
+	Little tweaks to desktop file service
+
+2011-09-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Optimize Zeitgeist searches
+
+2011-09-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix duplicate places
+
+2011-08-29  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fix to wrong no-results description while searching
+
+2011-08-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	ZeitgeistPlugin: Fix All category detection
+
+2011-08-29  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Changed default minimum size of descriptions
+
+2011-08-29  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fixed a GtkCritical in UI
+
+2011-08-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Forgot null check
+
+2011-08-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix duplicates coming from directory plugin
+
+2011-08-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Calculator: Replace commas with dots
+
+2011-08-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Commit first stab at places category
+
+2011-08-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Get rid of tabs
+
+2011-08-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix modeline
+
+2011-07-12  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fix to list displacement when changing o restarting WM
+
+2011-07-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change logging a bit
+
+2011-07-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix compilation on 0.14 (though it won't run atm)
+
+2011-07-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Minor cleanup
+
+2011-07-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Install manpage
+
+2011-07-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add all COPYING files to EXTRA_DIST
+
+2011-06-25  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix description strings on recent apps
+
+2011-05-27  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Reimplemented Virgilio Style
+	A little speedup for ListView
+
+2011-05-15  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	SSH plugin should now work properly
+
+2011-05-08  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Forgot to add the KDE compatibility patch
+
+2011-05-05  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Updated translations
+
+2011-05-05  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	You can now use IBus input method correctly
+	Path is no more truncated in description label: the label is now
+	animated
+	Rewrited all UI, now themes support complex actions like: file->send
+	to->friend
+	Implemented but disabled Pidgin plugin and Chat actions
+	Started implementation of file operation plugin
+	Removed Virgilio and Dual themes (not re-implemented)
+	Added SideDoish theme
+	A lot of themes properties can now be tweaked from gtkrc, you'll
+	find documentation on the Wiki
+	Changed Match interface to support complex actions
+	Added QueryFlags .CONTACTS .TEXT
+	Implemented but disabled chat actions in pastebin and imgur plugin
+	Icon cache service now clears non-themed icon after AxoSynaptic vanish
+	Fixed all RTL issues (I hope)
+	Fixed some bug in Drag&Drop
+	Welcome SmartLabel, and goodbye ShrinkingLabel
+	AxoSynaptic UI should be faster and snappier now
+
+2011-04-10  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fixed a visual bug in Doish
+
+2011-04-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change permissions on debian/control
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post release version bump
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Release 0.2.6
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a possible warning from EggDBus
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Updated translation template
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Remove more workarounds
+
+2011-04-07  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Standardize local file URI display
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve relevancy of dir plugin
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Remove workarounds
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Finetuning of relevancies
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix banshee detection
+
+2011-04-07  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fixed some warnings
+
+2011-04-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge the build system changes
+
+2011-04-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump required Vala version and fix a few deprecation warnings
+
+2011-04-04  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fix Gtk.STOCK_ warnings
+
+2011-04-01  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fix to duplicate applications
+	caused by scanning the same directory twice
+
+2011-04-01  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	KWin fix
+
+2011-04-01  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Some debug for DesktopFileService
+	Removed -d option for axosynaptic-main, now using AXOSYNAPTIC_DEBUG env var
+
+2011-03-29  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Forgot default category in UIInterface
+
+2011-03-28  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Base support for customizable categories.
+	Little changes to QueryFlags.
+	UI Debug Mode (no input grab).
+	HTextSelector mouse-sensitive.
+	UI Cleanups.
+
+2011-03-24  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Updated translations
+
+2011-03-23  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Always on top/focus fixed. Customizable keybindings added.
+
+2011-03-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't push app launches to ZG if datahub does it for us
+
+2011-03-21  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fixed relevancy computation in Hybid plugin
+
+2011-03-20  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Fix 1px dislocation in Doish
+
+2011-03-20  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Forgot pot
+
+2011-03-19  Alberto Aldegheri  <albyrock87+dev@gmail.com>
+
+	Added Doish style. Drag and Drop. Rendering fixes and speedups
+
+2011-03-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix crashes if Zeitgeist plugin is disabled
+
+2011-03-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix 0.10 compilation... again...
+
+2011-03-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add ssh to POTFILES
+
+2011-03-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix accents removal in Vala 0.10
+
+2011-03-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't loose the ability to search numbered items
+
+2011-03-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Adjust ranking of websites
+
+2011-03-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge <lp:~antono/axosynaptic-project/ssh>
+
+2011-03-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post release version bump
+
+2011-03-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Release 0.2.4.1
+
+2011-03-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix crash with Vala 0.10
+
+2011-03-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Get rid of extra timer in hybrid search
+
+2011-03-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump Vala version requirement to prevent crashes
+
+2011-03-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix bug #697312
+
+2011-02-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix plugins dependant on Zeitgeist plugin
+
+2011-02-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix wrong type registration for PastebinPlugin
+
+2011-02-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add a few debug prints
+
+2011-02-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix Imgur plugin not showing up in plugin list
+
+2011-02-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post release version bump
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix debian for Lucid
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Tag for release
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix distcheck
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update translation template
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update POTFILES
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add librest dependency to debian
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make open action also open unknown uris
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't care about librest version, we can use both 0.6 and 0.7
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a few warnings, make it work again with valac 0.10
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Special case tomboy notes in Zeitgeist plugin
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix Alt+F4 resulting in crash
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few pre-release fixes
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Lock screen when suspending/hibernating
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add selection plugin
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix author field
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Refine a comment
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve BaseAction
+
+2011-02-22  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix critical
+
+2011-02-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added imgur plugin which requires optional librest dependancy
+
+2011-02-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add a bunch of useless code to Launchpad plugin...
+
+2011-02-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change the error message in pastebin plugin
+
+2011-02-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add Configurable interface
+
+2011-02-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix distcheck
+
+2011-02-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use caseless Launchpad bug regex
+
+2011-02-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Increase match score granularity
+
+2011-02-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve relevancies for websites
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Finish up the Pastebin plugin
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add copy to clipboard action
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update POTFILES
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add pastebin plugin
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make calculator plugin use Text match
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add TextMatch
+
+2011-02-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Expose BaseAction API
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix register method of Launchpad plugin
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update POTFILES
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add Launchpad plugin
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add relevancy debug for desktop file plugin
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add help buttons for plugins pointing to the wiki
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add HelloWorldPlugin to l10n skip file
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Mini clean up
+
+2011-02-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve calculator plugin
+
+2011-02-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added HelloWorldPlugin
+
+2011-02-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Calculator plugin result doesn't have a thumbnail
+
+2011-02-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change the plugin API
+
+2011-02-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Remove the po files and keep them in separate branch
+
+2011-02-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Implement nice Logger class
+
+2011-01-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix typo
+
+2011-01-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Hybrid-search: recently-used can be also in datadir
+
+2011-01-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change max time on recent items to 4 weeks
+
+2011-01-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix typo
+
+2011-01-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump valac version also in debian/control
+
+2011-01-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump Valac requirement to 0.10.2 + fix issues it brings
+
+2011-01-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update pot
+
+2011-01-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix some debian voodoo (thx to ricotz)
+
+2011-01-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix POTFILES.in
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use ConsoleKit for system management actions
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update for changes in Vala 0.11.4
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix bug #694359
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Gnome session plugin: Don't display dialog on logout
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve multi word locate search (bug #695379)
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve Zeitgeist plugin to better handle partial matches
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix bug #693781
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Rename DBusNameCache to DBusService
+
+2011-01-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few minor changes
+
+2011-01-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge calculator plugin
+
+2011-01-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix crash when compiled with vala 0.11
+
+2011-01-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to bug #690416, now HTextSelector has proper antialias
+
+2010-12-20  Alberto  <albyrock87+dev@gmail.com>
+
+	Speedups, and little ui fixes
+
+2010-12-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge from <lp:~gilir/axosynaptic-project/packaging>
+
+2010-12-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post release version bump
+
+2010-12-16  Alberto  <albyrock87+dev@gmail.com>
+
+	Fixes bug #691079
+
+2010-12-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Now the build system should really work
+
+2010-12-14  Alberto  <albyrock87+dev@gmail.com>
+
+	Better IBUS variable set
+
+2010-12-14  Alberto  <albyrock87+dev@gmail.com>
+
+	RTL finally fixed. Hope also IBUS
+
+2010-12-14  Alberto  <albyrock87+dev@gmail.com>
+
+	IBUS support, yeybzr diff
+
+2010-12-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix build issues
+
+2010-12-14  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added COPYING files
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Damn, fixed RB plugin play
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post release version bump
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	0.2.2
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Reverse cherrypick R281
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	OpenSearch plugin to support Mozilla search plugins
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump Zeitgeist requirement
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix build issue
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Wrap long label in ui-settings
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump release name
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fail silently
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Pre-release preparations
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Ops, fix in ui-interface - locate actions related
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Enable Locate - fix an issue in Utils.FileInfo - fix for blank icons
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge from <lp:~mhr3/axosynaptic-project/axosynaptic-i18n> up to R11
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to bug in listview
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Few more fixes
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Ui fixes for locate
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few fixes
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Locate changed to handle unknown matches
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fixes to locate
+
+2010-12-13  Alberto  <albyrock87+dev@gmail.com>
+
+	Support for extra search engines in matches
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add SEARCH match interface
+
+2010-12-13  Michal Hruby  <michal.mhr@gmail.com>
+
+	Move FileInfo into Utils namespace
+
+2010-12-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Yey.. broken build again
+
+2010-12-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix bug #686624
+
+2010-12-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Dont show NoDisplay desktop files for "Open with" action
+
+2010-12-12  Alberto  <albyrock87+dev@gmail.com>
+
+	Use unknown when icon is not set
+
+2010-12-12  Alberto  <albyrock87+dev@gmail.com>
+
+	When using shift-enter, go back to match searching
+
+2010-12-12  Alberto  <albyrock87+dev@gmail.com>
+
+	Shift+Enter support
+
+2010-12-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use StatusIcon if indicator is not enabled
+
+2010-12-12  Michal Hruby  <michal.mhr@gmail.com>
+
+	Finish up OpenSearch plugin
+
+2010-12-12  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to bug #688813 , and a little fix in match renderer
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge from <lp:~gilir/axosynaptic-project/packaging>
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update i18n
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix relevancies of common actions
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added OpenSearch plugin
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	More popularity finetuning
+
+2010-12-11  Alberto  <albyrock87+dev@gmail.com>
+
+	Ops, and fixed critical
+
+2010-12-11  Alberto  <albyrock87+dev@gmail.com>
+
+	Shadow fixes, still there's a critial in Dual to fix
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Slightly better fix
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Few more fixes
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix possible deadlock
+
+2010-12-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	A couple of fixes
+
+2010-12-10  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to bug #688280
+
+2010-12-10  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix bug #685634
+
+2010-12-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change relevancy computation.. again
+
+2010-12-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change relevancy computation.. again
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Stupid me. Fix compile errors
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Stupid me. Fix compile errors
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	In MatchRenderer Hilight title only when the row is fully selected
+	(animation ended)
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	UI visual fixes
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Nicer selection on ListView. Now the label fades the color.
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Stupid me.
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Added a sample gtkrc for AxoSynaptic custom style
+
+2010-12-09  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to colors in dark themes
+
+2010-12-08  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix a bug in ListView
+
+2010-12-08  Alberto  <albyrock87+dev@gmail.com>
+
+	Visual bugfix - MenuButton is not using its style.
+
+2010-12-08  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update translation template
+
+2010-12-08  Alberto  <albyrock87+dev@gmail.com>
+
+	Color adjustments, and now AxoSynaptic supports custom gtkrc, see line
+	32 in ui-cairo-gtk-base.vala
+
+2010-12-08  Alberto  <albyrock87+dev@gmail.com>
+
+	Removed Singleton from ColorHelper, now you must initialize it into
+	your widget, so it listen on style_set, also it uses less memory
+
+2010-12-08  Michal Hruby  <michal.mhr@gmail.com>
+
+	Minor changes
+
+2010-12-08  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to non-animated ListView. Now animated widgets read config for:
+	ui.widgets.animation-enabled, and, ui.widgets.extended-info-enabled.
+
+2010-12-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Cleaning up...
+
+2010-12-07  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix typo huge error in Rhythmbox Plugin
+
+2010-12-07  Alberto  <albyrock87+dev@gmail.com>
+
+	Some comments added and my (C) on some files
+
+2010-12-07  Alberto  <albyrock87+dev@gmail.com>
+
+	Added Comments in ui-interface.vala
+
+2010-12-07  Alberto  <albyrock87+dev@gmail.com>
+
+	Extended info support on MatchRenderer - reorganized rendering
+
+2010-12-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Yey for committing non-working code
+
+2010-12-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add ExtendedInfo interface
+
+2010-12-07  Alberto  <albyrock87+dev@gmail.com>
+
+	Mixed RTL/LTR fix
+
+2010-12-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add ability to browse also recently launched applications
+
+2010-12-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	We don't wanna hear the C warnings
+
+2010-12-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add option to disable notification icon
+
+2010-12-06  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to Banshee and Rhythmbox detection
+
+2010-12-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't set pager and taskbar hint inside window-state-event handler
+
+2010-12-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a bug
+
+2010-12-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Let's support a little bit of relevancy
+
+2010-12-06  Alberto  <albyrock87+dev@gmail.com>
+
+	Connect to window state event to make sure that keep above is
+	still there.
+
+2010-12-06  Alberto  <albyrock87+dev@gmail.com>
+
+	Use type hint DIALOG to fix wrong behaviour with Mutter and
+	always-on-top windows
+
+2010-12-06  Alberto  <albyrock87+dev@gmail.com>
+
+	Use window type hint DOCK to steal the focus
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix typo
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	...and on libtool
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add build-depends on automake
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Bump libzg depends
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge from <lp:~gilir/axosynaptic-project/packaging>
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Right, we wanted to use GPL3 for the UI, not LGPL
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add RelevancyService stub
+
+2010-12-05  Alberto  <albyrock87+dev@gmail.com>
+
+	menu consistency
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make sure we recurse desktop file directories properly
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a few mistakes in last commit
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use proper licenses - LGPL2.1+ for core, GPL3 for UI
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge (with a few changes) from
+	lp:~and471/axosynaptic-project/trivial-fixes
+
+2010-12-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add plugin for locking screen
+
+2010-12-04  Alberto  <albyrock87+dev@gmail.com>
+
+	Fixes to show/hide methods
+
+2010-12-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add AppIndicator support
+
+2010-12-03  Alberto  <albyrock87+dev@gmail.com>
+
+	Trying to get axosynaptic on top
+
+2010-12-03  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to bug #683655
+
+2010-12-03  Alberto  <albyrock87+dev@gmail.com>
+
+	Moved ui-*.vala to AxoSynaptic.Gui namespace
+
+2010-12-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix broken dbus name change detection
+
+2010-12-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add basic unaccenting support
+
+2010-12-02  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to infinite loop in nasty hack
+
+2010-12-02  Alberto  <albyrock87+dev@gmail.com>
+
+	Use 3 parameters when getting DBus object, and a little fix for
+	rhythmbox
+
+2010-12-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix POTFILES paths
+
+2010-12-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Finish reorganization
+
+2010-12-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Reorganize a bit
+
+2010-12-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fixes, fixes
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	Theme combo back to right
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to compilation error on i18n common strings
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	Do not use const for i18n
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	paste support bug #683818
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to bug #683696
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	bug #683767 thanks to ~and471 and added some i18n strings
+
+2010-12-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve DBusNameCache
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	add a name to the axosynaptic window
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	starting support for i18n
+
+2010-12-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	Message dialog for KeyBinging error
+
+2010-12-01  Alberto  <albyrock87+dev@gmail.com>
+
+	Added debian dependences for libgee and libjson-glib
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	And fix the desktop file duplication once again
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge in the debian branch
+
+2010-11-30  Alberto  <albyrock87+dev@gmail.com>
+
+	Fix to multimonitor bug #683309
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Post release version bump
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Release 0.2.0
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't duplicate desktop files
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Hook up libunique
+
+2010-11-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Better yet use or...
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update the DOWN text
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Multiple fixes here and there
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add plugin-registered signal
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't suppose that empty search applies to plugins that handle
+	unknown queries
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a couple of bugs
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Whoops
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Allow recent search in ZG plugin
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Let's not forget Izo as our artist
+
+2010-11-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Save disabled plugins
+
+2010-11-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few small fixes
+
+2010-11-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix for valac 0.10
+
+2010-11-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Update the icon :)
+
+2010-11-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add configuration object
+
+2010-11-25  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix for new Vala
+
+2010-11-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix small issue
+
+2010-11-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix up Zeitgeist results for 'All' category based on Seif's patch
+
+2010-11-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't use leaky LinkedList
+
+2010-11-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	HybridSearch: Ignore some binary objects
+
+2010-11-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Handle hidden desktop files properly
+
+2010-11-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Paint standard selected item background
+
+2010-11-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few minor changes
+
+2010-11-17  Michal Hruby  <michal.mhr@gmail.com>
+
+	Rename the main file
+
+2010-11-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	And another merge
+
+2010-11-16  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Show widget names in inspector
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Inspector: Hilight also the container
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added UI inspector
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add slow plugin to makefile
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix typo
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Try to get folder custom icon
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve the directory plugin
+
+2010-11-15  Michal Hruby  <michal.mhr@gmail.com>
+
+	Start directory plugin
+
+2010-11-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a bug
+
+2010-11-11  Michal Hruby  <michal.mhr@gmail.com>
+
+	Implement DesktopFileService
+
+2010-11-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-09  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-08  Michal Hruby  <michal.mhr@gmail.com>
+
+	Get rid of the frames, fix Makefile to be parseable with vtg
+
+2010-11-08  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	We don't need unique... yet
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added about dialog
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge the throbber fix
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Small fix
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	More stuff
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Autotooling
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Move into subdirs
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add autostart option
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add copyright headers everywhere
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Change RB plugin here and there
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make the menu button nice
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge new menu button
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Polishing...
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Whoops...
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a couple of small issues in tile view
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix typo
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make the settings dialog nicer
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add error dialog when hotkey binding fails
+
+2010-11-07  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add keybinding editor
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Allow enabling/disabling of plugins
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Implement PluginInfo
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added PluginRegistry
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	More fixes
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	And one more
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few small fixes
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use spinner
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge in RB plugin
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Some minor changes
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Rebranding to AxoSynaptic :)
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Allow ActionPlugin+DataPlugin in one class
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Try to fix issues with escaping
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-06  Michal Hruby  <michal.mhr@gmail.com>
+
+	Implement DBusNameCache, add Devhelp action
+
+2010-11-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Implement Terminal action
+
+2010-11-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-05  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add derived interfaces from Match
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Few smaller changes
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	First stab at ZG popularity
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Allow creation of ActionPlugins that operate on raw text
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix segfault
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve HybridSearch
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-04  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add id to every query
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	A few fixes
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix a bug in ShrinkingLabel
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add padding
+
+2010-11-03  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Decrease relevancy of non-local results from ZG
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Compactize cairo UI
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix align of ShrinkingLabel
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Try to finish up ShrinkingWidget
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added ShrinkingLabel
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Small changes under the hood
+
+2010-11-02  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix warnings
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Minor optimizations
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Disable test plugin(s)
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add a FIXME
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix up cairo, add new plugin
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Improve encapsulation in DataSink
+
+2010-11-01  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-31  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-31  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make test plugin return a result
+
+2010-10-31  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added testing plugin
+
+2010-10-30  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Addded UPower plugin
+
+2010-10-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add some utils
+
+2010-10-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	More polishing
+
+2010-10-29  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add one more regex for multiword searches
+
+2010-10-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Split things up a bit and add another plugin
+
+2010-10-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add method to get partial results from DataSink
+
+2010-10-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Polish the UI a little
+
+2010-10-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	A now really fix it
+
+2010-10-28  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix execute method on the actors
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added possibility to search actions
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix markup problems
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Another fix to desktop file icons
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix weird leak
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Small bug with new Regex
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	Ignore hidden and backup files
+
+2010-10-27  Michal Hruby  <michal.mhr@gmail.com>
+
+	A couple of various finetunings
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use parse_name in HS
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix icon-less matches for some desktop files
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make the hybrid search finally return some Matches
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix last commit
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Use Regex to create the markup
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Put the searched stuff into brackets
+
+2010-10-26  Michal Hruby  <michal.mhr@gmail.com>
+
+	Disable ZG search if we don't support the type
+
+2010-10-25  Michal Hruby  <michal.mhr@gmail.com>
+
+	Fix warning
+
+2010-10-25  Michal Hruby  <michal.mhr@gmail.com>
+
+	Merge
+
+2010-10-25  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make sure "make" rebuilds stuff
+
+2010-10-25  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add cairo UI
+
+2010-10-24  Michal Hruby  <michal.mhr@gmail.com>
+
+	Few changes
+
+2010-10-24  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make hybrid-search scan a few dirs after instantiation
+
+2010-10-24  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add one more regex to matchers
+
+2010-10-24  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add license headers
+
+2010-10-24  Michal Hruby  <michal.mhr@gmail.com>
+
+	Move query to separate file
+
+2010-10-24  Michal Hruby  <michal.mhr@gmail.com>
+
+	Don't make DataSink a singleton
+
+2010-10-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Add keysyms.vapi
+
+2010-10-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Push the hybrid plugin further to do something
+
+2010-10-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added get_matchers method to Query
+
+2010-10-23  Michal Hruby  <michal.mhr@gmail.com>
+
+	Intermittent commit
+
+2010-10-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make the search method bullet-proof
+
+2010-10-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Make it work a bit
+
+2010-10-21  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added basic GUI
+
+2010-10-20  Michal Hruby  <michal.mhr@gmail.com>
+
+	Added also ZG plugin
+
+2010-10-19  Michal Hruby  <michal.mhr@gmail.com>
+
+	Working DesktopFile plugin
+
+2010-10-18  Michal Hruby  <michal.mhr@gmail.com>
+
+	Initial commit
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+_Name=AxoSynaptic
+_Comment=Search everything you do.
+Keywords=search;find;launch;
+Exec=axosynaptic
+Icon=axosynaptic
+Categories=X-MATE;Utility;
