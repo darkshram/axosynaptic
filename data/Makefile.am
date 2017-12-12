@@ -11,6 +11,15 @@ dist_man_MANS = axosynaptic.1
 svgicondir = $(datadir)/icons/hicolor/scalable/apps
 dist_svgicon_DATA = axosynaptic.svg
 
+svgstatusicondir = $(datadir)/icons/hicolor/scalable/status
+dist_svgstatusicon_DATA = axosynaptic-status.svg
+
+svgstatusicondarkdir = $(datadir)/icons/Numix/24/status
+dist_svgstatusicondark_DATA = Numix/axosynaptic-status.svg
+
+svgstatusiconlightdir = $(datadir)/icons/Numix-Light/24/status
+dist_svgstatusiconlight_DATA = Numix-Light/axosynaptic-status.svg
+
 EXTRA_DIST = \
 	org.mate.axosynaptic.desktop.in \
 	$(NULL)
