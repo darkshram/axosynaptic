@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">org.mate.axosynaptic.desktop</id>
+  <licence>CC0</licence>
+  <description>
+    <p>AxoSynaptic is an utility to launch everything you have on your computer. It uses zeitgeist to search into the user's activity.</p>
+    <p xml:lang="es">AxoSynaptic es una utilería para lanzar todo lo que tengas en tu computadora. Utiliza zeitgeist para realizar la búsqueda en la actividad del usuario.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/screenshots/axosynaptic-screenshot1.png</screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/darkshram/axosynaptic/</url>
+  <updatecontact>darshram@gmail.com</updatecontact>
+</application>
