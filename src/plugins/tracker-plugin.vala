@@ -111,7 +111,7 @@ namespace AxoSynaptic
       q.max_results = 256;
       string regex = Regex.escape_string (q.query_string);
       // FIXME: split pattern into words and search using --regexp?
-      string[] argv = {"tracker", "search", "%u".printf (q.max_results),
+      string[] argv = {"tracker", "search", "-l", "%u".printf (q.max_results),
                        "*%s*".printf (regex.replace (" ", "*"))};
 
       Gee.Set<string> uris = new Gee.HashSet<string> ();
