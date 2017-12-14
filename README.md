@@ -8,7 +8,7 @@ Synapse.
 
 This version of AxoSynaptic officially supports only Vala 0.16 and later.
 
-![AxoSynaptic Logo](https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/axosynaptic.svg)
+![AxoSynaptic Logo](https://raw.githubusercontent.com/darkshram/axosynaptic/master/data/axosynaptic.png)
 
 # Requirements
 
